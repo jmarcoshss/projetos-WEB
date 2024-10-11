@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #e3e3e3;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.cabeçalho {
+    background-color: rgb(238, 156, 49);
+    text-align: center;
+    padding: 30px;
+}
+
+.linknav {
+    padding: 10px;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: rgb(238, 156, 49);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cabeçalho a:link,
+.cabeçalho a:visited {
+    color: white;
+}
+
+.cabeçalho a:hover {
+    background-color: white;
+    color: rgb(238, 156, 49);
+    text-decoration: none;
+}
+
+.principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    width: 660px;
+    float: inline-start;
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.caixalateral {
+    width: 240px;
+    float: right;
+
+}
+
+.conteudolateral {
+    h3 {
+        background-color: lightgray;
+        padding: 10px;
+    }
+
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.rodape {
+    margin: 0px auto;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    clear: both;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="img/museu.png" alt="">
+                </section>
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Vídeo: conheça o museu</h3>
+                        <iframe width="310" height="170"
+                            src="https://www.youtube.com/embed/RGUYb-hivrc?si=TpstnO8ru660sw3w"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </article>
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.6165883205404!2d-37.05101572495618!3d-10.916715589240713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab37908d5c7d7%3A0x85c2cd80b6e1930c!2sMuseu%20da%20Gente%20Sergipana%20Gov.%20Marcelo%20D%C3%A9da!5e0!3m2!1spt-BR!2sbr!4v1727092055262!5m2!1spt-BR!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                    <article id="exposicoes">
+                        <h3>Exposiçõe</h3>
+                        <ul>
+                            <li>
+                                <a href="">Os assustadores insetos</a>
+                            </li>
+                            <li>
+                                <a href="">O crânio de Luiza, a mulher mais antida do Brasil</a>
+                            </li>
+                            <li>
+                                <a href="">Preguiça gigante e Tigre dente-de-sabre</a>
+                            </li>
+                            <li>
+                                <a href="">Plantas do Brasil central</a>
+                            </li>
+                            <li>
+                                <a href="">Teresa Cristina> A imperatriz arqueologa</a>
+                            </li>
+                            <li>
+                                <a href=""><strong>Veja todos (65)</strong></a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article id="historia">
+                        <h3>200 anos de historia</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries
+                        </p>
+                        <a href=""> <strong>Leia mais</strong></a>
+                    </article>
+                </section>
+            </div>
+            <aside>
+                <section id="depoimento">
+                    <img src="img/depoimento.png" alt="">
+                </section>
+                <section id="visita">
+                    <h4>faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>selecione a data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+                <section id="galeria">
+                    <h4>galeria de fotos</h4>
+                    <a href="">
+                        <img src="img/imagem1.jpg" height="93px" width="93px" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem2.jpg" height="93px" width="93px" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem3.jpg" height="93px" width="93px" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem4.jpg" height="93px" width="93px" alt="">
+                    </a>
+                </section>
+            </aside>
+            <footer style="clear: both;">
+                <p>
+                    <a href="">home</a>
+                    <a href="">Exposições</a>
+                    <a href="">Pesquisa</a>
+                    <a href="">Acervo</a>
+                    <a href="">Vídeos</a>
+                    <a href="">Fotos</a>
+                    <a href="">Contato</a>
+                </p>
+                <p>
+                    2024 <a href=""> Museu Nacional</a> - todos os direitos reservados
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
